@@ -8,6 +8,10 @@ namespace LearningAll.Terms
 {
     class MyDelegate
     {
+        public MyDelegate()
+        {
+            //
+        }
         public delegate void Del(string message);
         public void MethodWithCallback(int param1, int param2, Del callback)
         {
